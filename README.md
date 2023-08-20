@@ -96,6 +96,7 @@ Vi skal nå tenke oss at man har et kortspill hvor man trekker et tilfeldig kort
 ### Oppgaven
 
 Du skal simulere dette kortspillet ved å skrive et program som skal trekke en tilfeldig verdi fra de to listene over. Programmet skal trekke en type og en verdi.
+Kombinasjonen av disse skal bestemme poengene som man får. Programmet skal printe ut hvilket kort som ble trukket og hvor mange poeng du fikk for å trekke det kortet. Poengene bestemmes ved å følge reglene som er listet opp over.
 
 Du kan trekke tilfeldig fra listene ved å bruke `random.choice()`-funksjonen i Python slik:
 
@@ -105,8 +106,6 @@ liste = [1, 2, 3]
 
 tilfeldig_trekning = random.choice(liste) #trekker et tilfeldig element fra listen
 ```
-
-Kombinasjonen av disse skal bestemme poengene som man får. Programmet skal printe ut hvilket kort som ble trukket og hvor mange poeng du fikk for å trekke det kortet. Poengene bestemmes ved å følge reglene som er listet opp over.
 
 ---
 
