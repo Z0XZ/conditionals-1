@@ -1,2 +1,0 @@
-# Se README for forklaring
-
