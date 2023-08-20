@@ -84,7 +84,7 @@ typer = ["hjerter", "kløver", "spar", "ruter"]
 verdier = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 ```
 
-Vi skal nå tenke oss at man ar et kortspill hvor man trekker et tilfeldig kort. Hvilken kombinasjon man trekker bestemmer hvor mange poeng man får ut fra følgende regler:
+Vi skal nå tenke oss at man har et kortspill hvor man trekker et tilfeldig kort. Hvilken kombinasjon man trekker bestemmer hvor mange poeng man får ut fra følgende regler:
 
 - Kløver 3 gir 15 poeng
 - Alle 10ere og alle sparkort gir 10 poeng
@@ -96,6 +96,15 @@ Vi skal nå tenke oss at man ar et kortspill hvor man trekker et tilfeldig kort.
 ### Oppgaven
 
 Du skal simulere dette kortspillet ved å skrive et program som skal trekke en tilfeldig verdi fra de to listene over. Programmet skal trekke en type og en verdi.
+
+Du kan trekke tilfeldig fra listene ved å bruke `random.choice()`-funksjonen i Python slik:
+
+```Python
+import random
+liste = [1, 2, 3]
+
+tilfeldig_trekning = random.choice(liste) #trekker et tilfeldig element fra listen
+```
 
 Kombinasjonen av disse skal bestemme poengene som man får. Programmet skal printe ut hvilket kort som ble trukket og hvor mange poeng du fikk for å trekke det kortet. Poengene bestemmes ved å følge reglene som er listet opp over.
 
